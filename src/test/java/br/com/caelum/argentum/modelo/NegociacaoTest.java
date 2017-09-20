@@ -16,7 +16,7 @@ public class NegociacaoTest {
 
 		negociacao.getData().set(Calendar.DAY_OF_MONTH, 20);
 
-		Assert.assertEquals(15, negociacao.getData().get(Calendar.DAY_OF_MONTH));
+		Assert.assertEquals(100, negociacao.getData().get(Calendar.DAY_OF_MONTH));
 	}
 	
 	@Test(expected=IllegalArgumentException.class)
